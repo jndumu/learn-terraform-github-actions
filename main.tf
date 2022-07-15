@@ -12,7 +12,7 @@ terraform {
   required_version = "~> 1.0"
 
   backend "remote" {
-    organization = "Josie-Terraform-Demo"
+    organization = "TFC-Terraform-Demo"
 
     workspaces {
       name = "josie-github-action"
